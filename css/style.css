@@ -151,7 +151,7 @@ a:active {
 	max-width: 15em;
 }
 .table_row_throughput {
-	padding-left: 1em;
+	padding-left: .75em;
 	padding-top: .65em;
 	float: left;
 }
