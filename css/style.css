@@ -144,15 +144,16 @@ a:active {
 
 .table_row_progress { 
 	padding-bottom: 1.5em;
-	max-width: 7.25em;
+	max-width: 200em;
 }
 .table_row_progress_blackout { 
 	padding-bottom: 1.5em;
 	max-width: 15em;
 }
 .table_row_throughput {
-	padding-top: .25em;
-	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: .65em;
+	float: left;
 }
 .icon {
 	display: inline-block;
