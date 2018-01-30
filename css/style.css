@@ -151,9 +151,8 @@ a:active {
 	max-width: 15em;
 }
 .table_row_throughput {
-	padding-top: .5em;
+	padding-top: .25em;
 	padding-right: 1em;
-	font-size: .75em;
 }
 .icon {
 	display: inline-block;
