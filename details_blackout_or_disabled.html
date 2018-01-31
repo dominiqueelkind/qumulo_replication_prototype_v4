@@ -32,32 +32,50 @@
 </svg>
 <!--END replication enabled in blackout svg-->	
 	<span class="disabled">In blackout window</span><br/>
-		  <span class="disabled sm_txt padleft">active 2018-01-18 13:00:00</span><br/>
-<div class="progress combined_status_progress progress_container">
+		  <span class="disabled sm_txt padleft">active 2018-01-18 13:00:00</span></td>
+		<td class="table_row_progress" valign="top">
+			<div class="progress progress_container">
   <b class="progress__bar">
     <span class="progress__text">
-      <em>0%</em>
+		<em>0%</em>
     </span>
   </b>
-</div><div class="table_row_throughput">10MB/s</div></td>
+</div></td>
     </tr>
   </tbody>
 </table>
-	
 
-		
+<div class="full_column">
+	
+	<h4>Throughput</h4>
+	<div class="statcolumn">
+	<h3>Now</h3>
+	<span class="time">10</span><span class="sm_txt_white">MB/s</span>
+	</div>
+	
+	<div class="statcolumn">
+	<h3>Avg.</h3>
+	<span class="time">9.9</span><span class="sm_txt_white">MB/s</span>
+	</div>
+	
+</div>
 	
 <div class="full_column">
 	
-	<div class="statcolumn"><h3>Elapsed time</h3><br/>
+	<h4>Run time</h4>
+	<div class="statcolumn">
+	<h3>Elapsed</h3>
 	<span class="time">1 hour</span><br/>
-	<em>Started 2018-01-18 18:00:00</em></div>
+	Started 2018-01-18 18:00:00
+	</div>
 	
-	<div class="statcolumn"><h3>Estimated time remaining</h3><br/>
+	<div class="statcolumn">
+	<h3>Estimated remaining</h3>
 	<span class="time">5 minutes</span><br/>
-	<em>Complete at 2018-01-18 18:05:00</em></div>
+	Complete at 2018-01-18 18:05:00	
+	</div>
 	
-<div class="statcolumn">
+	<div class="statcolumn">
 <!-- Trigger/Open The Modal -->
 <button id="myBtn" class="abort_btn">Manually Abort</button>
 
@@ -67,7 +85,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span><br/>
-    <h4>Manually Abort Replication?</h4>
+    <h2>Manually Abort Replication?</h2>
 	<p>Progress from recovery point (2018-01-18 13:00:00) will be lost</p>
 	<button class="abort_btn">Yes, Manually Abort Now</button>&nbsp;&nbsp;&nbsp;<a>Cancel</a>
   </div>
@@ -76,38 +94,40 @@
 		
 	<br/>
 	<span class="sm_txt_white"><em>Progress will be lost</em></span></div>
+</div>	
 
-
+<div class="full_column">
 	
-</div>
-	
-</div>
-	
-<div class="full_column margin40">
-	
+	<h4>Data</h4>
 	
 	<div class="statcolumn">
-	<h3>Transferred</h3><br/>
+	<h3>Transferred</h3>
 	<span class="time">200,000</span><span class="sm_txt_white">TB</span><br/>
 	1,570 files</div>
 	
 	<div class="statcolumn">
-	<h3>Unchanged</h3><br/>
+	<h3>Unchanged</h3>
 	<span class="time">100,250</span><span class="sm_txt_white">PB</span><br/>
 	860 files</div>
 	
 	<div class="statcolumn">
-	<h3>Remaining</h3><br/>
+	<h3>Remaining</h3>
 	<span class="time">99,750</span><span class="sm_txt_white">PB</span><br/>
 	9,960 files</div>
 	
 	<div class="statcolumn">
-	<h4>Total</h4>
+	<h3>Total</h3>
 	<span class="time">400,000</span><span class="sm_txt_white">PB</span><br/>
-	12,390 files<span class="sm_txt">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span>Avg. 9.98MB/s</div>
-	
+	12,390 files</div>
+		
 	</div>
 	
+</div>
+
+	
+
+	
+
 
 <script>
 // Get the modal
